@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.min.css" />
+  </head>
+  <body>
+    <header class="header-wrapper fixed-top">
+      <nav class="navbar h-100 navbar-expand-lg bg-black" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://esnline.com/assets/imgs/esnline-logo.png"
+              width="56"
+              alt="Esnline"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase fw-bold active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase fw-bold" href="#"
+                  >ESNLine Categories</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase fw-bold text-danger" href="#"
+                  >Live Streaming</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="d-flex flex-column py-4 gap-4">
+      <section class="space__iklan mt-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img
+                src="https://fakeimg.pl/1200x150/dcdcdc/?text=Space Iklan"
+                class="img-fluid w-100"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news__highlight">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-7">
+              <a href="#">
+                <img
+                  src="https://fakeimg.pl/680x380/dcdcdc/"
+                  class="img-fluid w-100"
+                />
+              </a>
+            </div>
+            <div class="col-12 col-lg-5">
+              <div class="d-flex flex-column h-100">
+                <div>
+                  <span
+                    class="badge badge text-bg-warning rounded-0 text-white text-uppercase px-3 mt-3 mt-lg-0"
+                    >esnline-categories</span
+                  >
+                  <h3 class="mt-1 mb-2 mb-lg-4">
+                    <a href="#">
+                      RESMI: La Liga Coret Dani Olmo dari Skuad Barcelona!
+                    </a>
+                  </h3>
+                  <p class="text-secondary">
+                    Barcelona menghadapi pukulan berat setelah gagal
+                    mendaftarkan Dani Olmo dan Pau Victor dalam batas waktu 1
+                    Januari 2025. Kedua pemain ini sebelumnya terdaftar untuk
+                    paruh pertama musim dengan lisensi khusus La Liga, yang
+                    berakhir pada 31 Desember 2024. Setelah gagal dalam dua kali
+                    banding, Barcelona tidak berhasil memperpanjang lisensi
+                    sesuai aturan keuangan liga.
+                  </p>
+                </div>
+                <div class="mt-auto d-flex gap-4 text-secondary">
+                  <span class="text-sm"> <i class="bi bi-person"></i> Tom</span>
+                  <span class="text-sm">
+                    <i class="bi bi-pencil"></i> 02 January 2025
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row g-lg-5">
+            <main class="col-12 col-lg-8">
+              <div class="row news__rows" data-items="5"></div>
+              <div class="row news__large my-5"></div>
+              <div class="row news__rows" data-items="3"></div>
+              <div class="row news__large my-5"></div>
+              <div class="row news__rows" data-items="2"></div>
+
+              <div class="row my-5">
+                <div class="col-12">
+                  <img
+                    src="https://fakeimg.pl/770x270/dcdcdc/?text=Space Iklan"
+                    class="img-fluid w-100"
+                  />
+                </div>
+              </div>
+
+              <div class="row news__rows" data-items="3"></div>
+
+              <div class="row mt-5">
+                <div class="col-12">
+                  <div class="row news__cards g-4" data-items="6"></div>
+                </div>
+              </div>
+            </main>
+
+            <div class="col-12 col-lg-4">
+              <aside class="sticky-top py-lg-4 px-lg-3">
+                <h5 class="text-uppercase">Terpopuler</h5>
+
+                <div class="row">
+                  <div class="col-12">
+                    <div class="mb-2">
+                      <img
+                        src="https://fakeimg.pl/340x190/dcdcdc/"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <p class="truncate-text-2 fw-bold">
+                        Rampingkan Skuad, Chelsea Siap Cuci Gudang di Bursa
+                        Transfer Januari!
+                      </p>
+                      <div class="my-2 d-flex gap-4 text-secondary">
+                        <span class="text-sm">
+                          <i class="bi bi-pencil"></i> 02 January 2025
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-6">
+                    <div class="mb-1">
+                      <img
+                        src="https://fakeimg.pl/150x90/dcdcdc/"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <p class="truncate-text-2 fw-bold">
+                        Rampingkan Skuad, Chelsea Siap Cuci Gudang di Bursa
+                        Transfer Januari!
+                      </p>
+                      <div class="my-2 d-flex gap-4 text-secondary">
+                        <span class="text-sm">
+                          <i class="bi bi-pencil"></i> 02 January 2025
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-6">
+                    <div class="mb-1">
+                      <img
+                        src="https://fakeimg.pl/150x90/dcdcdc/"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <p class="truncate-text-2 fw-bold">
+                        Rampingkan Skuad, Chelsea Siap Cuci Gudang di Bursa
+                        Transfer Januari!
+                      </p>
+                      <div class="my-2 d-flex gap-4 text-secondary">
+                        <span class="text-sm">
+                          <i class="bi bi-pencil"></i> 02 January 2025
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-6">
+                    <div class="mb-1">
+                      <img
+                        src="https://fakeimg.pl/150x90/dcdcdc/"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <p class="truncate-text-2 fw-bold">
+                        Rampingkan Skuad, Chelsea Siap Cuci Gudang di Bursa
+                        Transfer Januari!
+                      </p>
+                      <div class="my-2 d-flex gap-4 text-secondary">
+                        <span class="text-sm">
+                          <i class="bi bi-pencil"></i> 02 January 2025
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-6">
+                    <div class="mb-1">
+                      <img
+                        src="https://fakeimg.pl/150x90/dcdcdc/"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <p class="truncate-text-2 fw-bold">
+                        Rampingkan Skuad, Chelsea Siap Cuci Gudang di Bursa
+                        Transfer Januari!
+                      </p>
+                      <div class="my-2 d-flex gap-4 text-secondary">
+                        <span class="text-sm">
+                          <i class="bi bi-pencil"></i> 02 January 2025
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <img
+                      src="https://fakeimg.pl/340x170/dcdcdc/?text=Space Iklan"
+                      class="img-fluid w-100"
+                    />
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="title-separator">
+                <span class="text-uppercase">Sorotan</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row news__cards g-4"
+            data-items="4"
+            data-class="col-6 col-md-6 col-lg-3"
+          ></div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="text-white">
+      <div class="footer__menus py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-5">
+              <img
+                src="https://esnline.com/assets/imgs/esnline-white.png"
+                class="img-fluid mb-3"
+                width="80"
+                alt="esnline white"
+              />
+              <p>
+                ESNLine adalah Portal Berita Seputar Esport ini menyediakan
+                informasi berita terbaru tentang olahraga sepakbola, esport,
+                pertandaingan gamer, perkembangan teknologi, turnamen, video di
+                dalam negeri dan luar negeri.
+              </p>
+            </div>
+
+            <div class="col-12 col-md-6 offset-md-1">
+              <div class="row mt-4">
+                <div class="col-12 col-md-4">
+                  <h6 class="text-uppercase">Kategori</h6>
+                  <ul class="list-unstyled">
+                    <li>ESNLine Categories</li>
+                  </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                  <h6 class="text-uppercase">Informasi</h6>
+                  <ul class="list-unstyled">
+                    <li>Redaksi</li>
+                    <li>Pedoman</li>
+                    <li>Disclaimer</li>
+                    <li>Kontak</li>
+                  </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                  <h6 class="text-uppercase">Kunjungi Kami</h6>
+                  <ul class="list-unstyled">
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Dolor sit amet.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright text-dark py-4">
+        <div class="container">
+          <small class="d-block copyright mb-0 text-center fw-medium">
+            &copy; ESNLine Developer | Berita Seputar Esport & Sport
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
