@@ -103,6 +103,12 @@ h6 a {
   flex-grow: 1;
   border-top: 2px solid var(--bs-body-color);
 }
+.title-separator::before {
+  margin-right: 10px;
+}
+.title-separator::after {
+  margin-left: 10px;
+}
 
 // ----------------------------------------------
 // ------------ HANDLE CARD ARTICLES ------------
